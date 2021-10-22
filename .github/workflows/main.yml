@@ -4,7 +4,7 @@ jobs:
   build:
     run-ons: ubuntu-latest
     steps:
-    - uses: actions/checkoutmaster
+    - uses: actions/RonRvr-patch-1
     - uses: actions/setup-node@v1
       with:
         node-version: '10.x'
